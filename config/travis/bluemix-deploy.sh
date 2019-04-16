@@ -3,6 +3,8 @@
 # verify that the required Cloud Foundry variables are set
 invocation_error=0
 
+# - APP_NAME: IBM Cloud App Name
+if [ -z ${APP_NAME+x} ]; then echo 'Error: Environment variable BXIAM is undefined.'; invocation_error=1; fi
 # - BXIAM: IBM Cloud API key
 if [ -z ${BXIAM+x} ]; then echo 'Error: Environment variable BXIAM is undefined.'; invocation_error=1; fi
 # - CF_ORGANIZATION: IBM Cloud/Cloud Foundry organization name
@@ -22,4 +24,4 @@ if [ ${invocation_error} -eq 1 ]; then echo 'Something went wrong, check for pre
 ./Bluemix_CLI/bin/bluemix login --apikey $BXIAM
 ./Bluemix_CLI/bin/bluemix target -o $CF_ORGANIZATION -s $CF_SPACE
 
-./Bluemix_CLI/bin/bluemix cf push
+./Bluemix_CLI/bin/bluemix cf push $APP_NAME
