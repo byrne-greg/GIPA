@@ -19,7 +19,7 @@ class App extends Component {
 export const VersionNumber = () => {
 	return(
 		<div className="VersionNumber">
-			<p>v1.0.4</p>
+			<p>v1.0.5</p>
 		</div>
 	);
 };
