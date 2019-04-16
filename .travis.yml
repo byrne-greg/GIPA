@@ -3,9 +3,21 @@ node_js:
   - "stable"
 cache:
   directories:
-  - node_modules
+    - node_modules
+sudo: required
+before_deploy:
+  - curl -L https://clis.ng.bluemix.net/download/bluemix-cli/0.6.1/linux64 | tar -zx
+  - chmod -R u+x ./Bluemix_CLI/bin
+  - chmod +x ./config/travis/bluemix-deploy.sh
+deploy:
+  provider: script
+  script: ./config/travis/bluemix-deploy.sh
+  on:
+    repo: byrne-greg/GIPA
+    branch: master
+  skip_cleanup: true
 script:
   - npm test -- --coverage # Include coverage when running tests
   - npm run build
-after_script: # Upload coverage reports 
+after_script: # Upload coverage reports
   - COVERALLS_REPO_TOKEN=$coveralls_repo_token npm run coveralls
