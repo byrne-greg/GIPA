@@ -1,0 +1,99 @@
+.RobotImage {
+  animation-name: RobotImage_horizontal_flip;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+  height: calc(45px + 2vw);
+  margin: 0 20px;
+}
+
+@keyframes RobotImage_horizontal_flip {
+  from { -webkit-transform: scaleX(0); transform: scaleX(0); }
+  to { -webkit-transform: scaleX(1); transform: scaleX(1); }
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid black;
+
+  color: black;
+  background-color: #e5e5e5;
+}
+
+.HeaderTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderTitleText {
+  display: flex;
+}
+
+.HeaderTitleChar {
+  margin: 0 3px;
+}
+
+.HeaderSubTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderSubTitle_title {
+  margin: 0 5px 5px 5px;
+}
+
+.HeaderSubTitle_iconLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderSubTitle_iconLinks a {
+  margin: 10px;
+}
+
+.fab {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+
+
+
+

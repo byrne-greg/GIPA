@@ -1,0 +1,32 @@
+.UhOh {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Catastrophe_image {
+  max-width:60%;
+  max-height:auto;
+  margin: 20px;
+}
+
+.Catastrophe_text {
+  margin: 20px;
+}
+
+.Catastrophe_text h1 {
+  margin: 20px;
+}
+
+.Catastrophe_text p {
+  margin: 10px;
+}
+
+.Catastrophe_text pre {
+  margin: 10px;
+}
+
+.WhatToDo {
+  font-size: calc(14px + 2vmin);
+}

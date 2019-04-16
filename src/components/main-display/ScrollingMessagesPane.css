@@ -1,0 +1,59 @@
+.ScrollingMessagesPane {
+	overflow: auto;
+	min-height: 200px;
+	max-height: 400px;
+	margin: 10px;
+}
+
+.ScrollingMessagesPane__botMsg, .ScrollingMessagesPane__userMsg {
+	position: relative;
+	border-radius: .4em;
+	padding: 20px;
+	color: white;
+	min-width: 5rem;
+	margin: 20px 2rem;
+	clear:both;
+	text-align: left;
+}
+
+.ScrollingMessagesPane__botMsg p, .ScrollingMessagesPane__userMsg p {
+	margin: 5px;
+}
+
+
+.ScrollingMessagesPane__botMsg {
+	background: #007fa5;
+	float:left;
+}
+
+.ScrollingMessagesPane__userMsg {
+	background: #73348E;
+	float:right;	
+}
+
+.ScrollingMessagesPane__botMsg:after, .ScrollingMessagesPane__userMsg:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 25px solid transparent;	
+}
+
+.ScrollingMessagesPane__userMsg:after{
+	right:0;
+	border-left-color: #73348E;
+	border-right: 0;
+	margin-top: -25px;
+  	margin-right: -25px;
+}
+
+.ScrollingMessagesPane__botMsg:after {
+	left: 0;
+	border: 25px solid transparent;
+	border-right-color: #007fa5;
+	border-left: 0;
+	margin-top: -25px;
+	margin-left: -25px
+}

@@ -1,0 +1,68 @@
+.InfoPane__overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e5e5;
+  z-index: 1; /* Specify a stack order */
+  cursor: pointer; /* Add a pointer on hover */
+  overflow-y: scroll;
+}
+
+.InfoPane__overlayOpenButton {
+  border:none;
+  margin:0 5px;
+  color: #007fa5;
+  background-color: white;
+  font-size: calc(30px + 2vmin);
+  cursor: pointer;
+}
+
+.InfoPane__content {
+  margin: 5vh 5vw;
+}
+
+.Card__title {
+  margin: 10px;
+}
+
+.Card__body {
+  margin: 15px 30px;
+  text-align: left;  
+  font-size: calc(12px + 1.5vmin);
+}
+
+.Card__body p {
+  padding: 15px 0;
+  
+}
+
+.Card__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.Card__imagecaption {
+  font-style: italic;
+  text-align: center;
+}
+
+.CloseButton {
+  position: fixed;
+  bottom:0;
+  right:0;
+  height:50px;
+  margin: 0 10px 0 0;
+}
+
+.CloseButton .fa-times-circle {
+  font-size: calc(30px + 2vmin);
+}

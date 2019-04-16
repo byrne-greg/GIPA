@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component full render matches expected snapshot 1`] = `
+<header
+  className="Header"
+>
+  <div
+    className="HeaderTitleContainer"
+  >
+    <img
+      alt="Robot. Icon made by Freepik from www.flaticon.com "
+      className="RobotImage"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Robot.svg/1024px-Robot.svg.png"
+    />
+    <h1
+      className="HeaderTitleText"
+    >
+      <div
+        className="HeaderTitleChar"
+      >
+        G
+      </div>
+      <div
+        className="HeaderTitleChar"
+      >
+        I
+      </div>
+      <div
+        className="HeaderTitleChar"
+      >
+        P
+      </div>
+      <div
+        className="HeaderTitleChar"
+      >
+        A
+      </div>
+    </h1>
+    <img
+      alt="Robot. Icon made by Freepik from www.flaticon.com "
+      className="RobotImage"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Robot.svg/1024px-Robot.svg.png"
+    />
+  </div>
+  <div
+    className="HeaderSubTitle"
+  >
+    <h3
+      className="HeaderSubTitle_title"
+    >
+      By Greg Byrne
+    </h3>
+    <div
+      className="HeaderSubTitle_iconLinks"
+    >
+      <a
+        className="fab fa-github"
+        href="https://github.com/byrne-greg"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span
+          className="hidden"
+        >
+          Link: Greg Byrne Github Profile
+        </span>
+      </a>
+      <a
+        className="fab fa-linkedin-in"
+        href="https://www.linkedin.com/in/byrne-greg/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span
+          className="hidden"
+        >
+          Link: Greg Byrne LinkedIn Profile
+        </span>
+      </a>
+      <a
+        className="fab fa-facebook-f"
+        href="https://www.facebook.com/greg.byrne.3551"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span
+          className="hidden"
+        >
+          Link: Greg Byrne Facebook Profile
+        </span>
+      </a>
+    </div>
+  </div>
+</header>
+`;

@@ -1,0 +1,19 @@
+.errorMessageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMessageTitle {
+  margin: 20px;
+}
+
+.errorMessageText {
+  text-align: left;
+  padding:10px;
+}
+
+.errorMessageTable {
+  padding: 20px 20px 20px 30px;
+}

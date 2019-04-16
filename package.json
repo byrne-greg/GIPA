@@ -1,0 +1,31 @@
+{
+  "name": "about-greg",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "coveralls": "^3.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "shortid": "^2.2.12",
+    "watson-developer-cloud": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "eject": "react-scripts eject",
+    "getwaworkspace": "node ./config/watson-assistant-workspace/download-watson-assistant-workspace.private.js",
+    "deploy": "npm run build && node ./config/watson-assistant-workspace/download-watson-assistant-workspace.private.js && bx app push"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.1.0",
+    "eslint-config-google": "^0.9.1",
+    "jest-fetch-mock": "^1.6.5",
+    "react-test-renderer": "^16.4.1"
+  }
+}

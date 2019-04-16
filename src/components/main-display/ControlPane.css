@@ -1,0 +1,75 @@
+.ControlPane {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ControlPane__inputPane {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.InputField {
+  width: 100vw;
+  margin: 10px 0 10px 10px;
+  padding: 12px;
+  font-size: calc(10px + 2vmin);
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid grey;
+}
+
+.InputField:focus {
+  border: 2px solid black;
+  outline: none;
+}
+
+.SubmitButton {
+  border:none;
+  margin:0 5px;
+  color: #73348E;
+  background-color: white;
+  font-size: calc(30px + 2vmin);
+  cursor: pointer;
+}
+
+.InputButton {
+  border: solid;
+  margin: 10px;
+  padding: 10px;
+  color: #73348E;
+  background-color: white;
+  font-size: calc(30px + 2vmin);
+  cursor: pointer;
+ 
+}
+
+.SuggestedResponsePane {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-flow: column wrap;
+}
+
+.SuggestedResponsePane__title {
+  margin: 5px 10px;
+  text-align: left;
+  color: grey;
+  text-decoration: underline;
+}
+
+.SuggestedResponsePane__title p {
+  font-size: calc(8px + 2vmin);
+  font-style: italic;  
+}
+
+.SuggestedResponsePane__responses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}

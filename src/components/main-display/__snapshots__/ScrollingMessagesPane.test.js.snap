@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message component full render matches expected snapshot 1`] = `
+<div
+  className="ScrollingMessagesPane__cssMessageType"
+>
+  <p>
+    test
+  </p>
+</div>
+`;
+
+exports[`ScrollingMessagesPane component full render matches expected snapshot 1`] = `
+<div
+  className="ScrollingMessagesPane"
+>
+  <h2>
+    No Messages to Display
+  </h2>
+  <div
+    id="latest-message"
+    style={
+      Object {
+        "clear": "both",
+        "float": "left",
+      }
+    }
+  />
+</div>
+`;
