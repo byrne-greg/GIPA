@@ -73,7 +73,8 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
             className="Card__body"
           >
             <p>
-              GIPA was created as a personal project. The idea was to devise a way in which inquiring users could ask any questions they want to find out more about me. It's real mission was a self-learning practical exercise in using a wide variety of unfamiliar technologies and experimenting with my favourite topic at present time of writing - Chatbots!. Read about it's 
+              GIPA was created as a personal project. The idea was to devise a way in which inquiring users could ask any questions they want to find out more about me. It's real mission was a self-learning practical exercise in using a wide variety of unfamiliar technologies and experimenting with my favourite topic at present time of writing - Chatbots!. Read about it's
+               
               <a
                 href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-46237c7be8bb"
                 rel="noopener noreferrer"
@@ -81,7 +82,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 development story
               </a>
-               or visit the 
+               
+              or visit the
+               
               <a
                 href="https://github.com/byrne-greg/GIPA"
                 rel="noopener noreferrer"
@@ -92,7 +95,8 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               .
             </p>
             <p>
-              GIPA uses a bunch of technologies. The front-end was developed with 
+              GIPA uses a bunch of technologies. The front-end was developed with
+               
               <a
                 href="https://reactjs.org/"
                 rel="noopener noreferrer"
@@ -100,7 +104,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 ReactJS
               </a>
-               (and typical CSS/HTML). The conversational agent was created using the 
+               
+              (and typical CSS/HTML). The conversational agent was created using the
+               
               <a
                 href="https://www.ibm.com/watson/ai-assistant/"
                 rel="noopener noreferrer"
@@ -108,7 +114,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 IBM's Watson Assistant
               </a>
-               platform. The connectivity between the front-end and Watson Assistant uses the 
+               
+              platform. The connectivity between the front-end and Watson Assistant uses the
+               
               <a
                 href="https://samnewman.io/patterns/architectural/bff/"
                 rel="noopener noreferrer"
@@ -116,7 +124,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 Backend for Frontend
               </a>
-               pattern. It is deployed using a 
+               
+              pattern. It is deployed using a
+               
               <a
                 href="https://nodejs.org/en/"
                 rel="noopener noreferrer"
@@ -124,7 +134,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 NodeJS
               </a>
-               FaaS with 
+               
+              FaaS with
+               
               <a
                 href="https://openwhisk.apache.org/"
                 rel="noopener noreferrer"
@@ -132,7 +144,8 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 Apache OpenWhisk
               </a>
-              . The Backend for Frontend FaaS and the static front-end content is all hosted on 
+              . The Backend for Frontend FaaS and the static front-end content is all hosted on
+               
               <a
                 href="https://www.ibm.com/cloud/"
                 rel="noopener noreferrer"
@@ -140,7 +153,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 IBM Cloud
               </a>
-               (formerly Bluemix). The VCS uses 
+               
+              (formerly Bluemix). The VCS uses
+               
               <a
                 href="https://github.com/"
                 rel="noopener noreferrer"
@@ -148,7 +163,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 GitHub
               </a>
-               and the build toolchain uses 
+               
+              and the build toolchain uses
+               
               <a
                 href="https://travis-ci.org/"
                 rel="noopener noreferrer"
@@ -156,7 +173,9 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 Travis CI
               </a>
-               and 
+               
+              and
+               
               <a
                 href="https://coveralls.io/"
                 rel="noopener noreferrer"
@@ -167,7 +186,8 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               .
             </p>
             <p>
-              For functionality, the responses are hard-coded within the Assistant workspace (due to the mostly static information about me). There is some dynamic content such as asking for a joke, which is a call-out to 
+              For functionality, the responses are hard-coded within the Assistant workspace (due to the mostly static information about me). There is some dynamic content such as asking for a joke, which is a call-out to
+               
               <a
                 href="https://icanhazdadjoke.com/"
                 rel="noopener noreferrer"
@@ -175,7 +195,8 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
               >
                 https://icanhazdadjoke.com/
               </a>
-               to retrieve a random joke.
+               
+              to retrieve a random joke.
             </p>
             <p>
               Try ask GIPA questions in natural language about me.
@@ -256,7 +277,7 @@ exports[`ControlPane component full render matches expected snapshot 1`] = `
           onClick={[Function]}
         >
           <i
-            class="far fa-times-circle"
+            className="far fa-times-circle"
           />
         </div>
       </div>
