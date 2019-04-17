@@ -19,9 +19,9 @@ if [ -z ${CF_API+x} ]; then export CF_API='https://api.ng.bluemix.net'; fi
 if [ ${invocation_error} -eq 1 ]; then echo 'Something went wrong, check for previous errors.'; exit 1; fi
 
 # login and set target
-./Bluemix_CLI/bin/bluemix config --check-version false
-./Bluemix_CLI/bin/bluemix api $CF_API
-./Bluemix_CLI/bin/bluemix login --apikey $BXIAM
-./Bluemix_CLI/bin/bluemix target -o $CF_ORGANIZATION -s $CF_SPACE
+./IBMCloud_CLI/bin/ibmcloud config --check-version false
+./IBMCloud_CLI/bin/ibmcloud api $CF_API
+./IBMCloud_CLI/bin/ibmcloud login --apikey $BXIAM
+./IBMCloud_CLI/bin/ibmcloud target -o $CF_ORGANIZATION -s $CF_SPACE
 
-./Bluemix_CLI/bin/bluemix cf push $APP_NAME
+./IBMCloud_CLI/bin/ibmcloud cf push $APP_NAME
