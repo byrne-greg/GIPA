@@ -6,12 +6,13 @@ cache:
     - node_modules
 sudo: required
 before_deploy:
-  - curl -L https://clis.ng.bluemix.net/download/bluemix-cli/latest/linux64| tar -zx
-  - chmod -R u+x ./Bluemix_CLI/bin
+  - curl -L https://clis.ng.bluemix.net/download/bluemix-cli/latest/linux64/archive | tar -zx
+  - chmod -R u+x ./IBM_Cloud_CLI
+  - export PATH=./IBM_Cloud_CLI:$PATH
   - chmod +x ./config/travis/ibmcloud-deploy.sh
 deploy:
   provider: script
-  script: ./config/travis/bluemix-deploy.sh
+  script: ./config/travis/ibmcloud-deploy.sh
   on:
     repo: byrne-greg/GIPA
     branch: master
