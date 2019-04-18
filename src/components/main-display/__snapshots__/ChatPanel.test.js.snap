@@ -100,7 +100,7 @@ exports[`ChatPanel component full render matches expected snapshot 1`] = `
                 GIPA was created as a personal project. The idea was to devise a way in which inquiring users could ask any questions they want to find out more about me. It's real mission was a self-learning practical exercise in using a wide variety of unfamiliar technologies and experimenting with my favourite topic at present time of writing - Chatbots!. Read about it's
                  
                 <a
-                  href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-46237c7be8bb"
+                  href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-with-watson-assistant-1623b824ec34"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

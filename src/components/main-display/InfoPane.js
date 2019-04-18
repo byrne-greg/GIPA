@@ -65,7 +65,7 @@ export const InfoPaneContent = props => {
 					experimenting with my favourite topic at present time of writing -
 					Chatbots!. Read about it's{" "}
 					<a
-						href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-46237c7be8bb"
+						href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-with-watson-assistant-1623b824ec34"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
