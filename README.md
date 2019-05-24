@@ -6,7 +6,7 @@
 ## Mission
 Provide a portal where inquiring users can ask personal questions of it's creator from a responsive conversational agent
 
-## Machiavellian Personal Agenda
+## Personal Agenda
 To gain practical experience in using a variety of hitherto unfamiliar technologies
 
 ## Demo
