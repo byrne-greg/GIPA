@@ -11,12 +11,15 @@ before_deploy:
   - export PATH=./IBM_Cloud_CLI:$PATH
   - chmod +x ./config/travis/ibmcloud-deploy.sh
 deploy:
+  skip_cleanup: true
   provider: script
   script: ./config/travis/ibmcloud-deploy.sh
   on:
     repo: byrne-greg/GIPA
     branch: master
-  skip_cleanup: true
+  provider: surge
+  project: ./build/
+  domain: gregbyrne.surge.sh
 script:
   - npm test -- --coverage # Include coverage when running tests
   - npm run build
