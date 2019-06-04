@@ -63,7 +63,7 @@ export const InfoPaneContent = props => {
 					more about me. It's real mission was a self-learning practical
 					exercise in using a wide variety of unfamiliar technologies and
 					experimenting with my favourite topic at present time of writing -
-					Chatbots!. Read about it's{" "}
+					Chatbots! Read about it's{" "}
 					<a
 						href="https://medium.com/@byrne.greg/a-development-story-in-creating-a-digital-advocate-with-watson-assistant-1623b824ec34"
 						target="_blank"
@@ -132,7 +132,7 @@ export const InfoPaneContent = props => {
 					>
 						IBM Cloud
 					</a>{" "}
-					(formerly Bluemix). The VCS uses{" "}
+					(formerly Bluemix) and Surge. The VCS uses{" "}
 					<a
 						href="https://github.com/"
 						target="_blank"
