@@ -4,3 +4,10 @@
     background-color: #ffffcc;
     border-left: 6px solid #ffeb3b;
 }
+
+.WatsonDown {
+    margin: 30px 5px 30px 5px;
+    padding: 5px;
+    background-color: #ff9368;
+    border-left: 6px solid red;
+}

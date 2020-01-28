@@ -2,11 +2,12 @@
   "name": "about-greg",
   "version": "1.0.0",
   "private": true,
+  "author": "Greg Byrne - https://www.linkedin.com/in/byrne-greg/",
   "dependencies": {
     "coveralls": "^3.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^3.3.0",
     "shortid": "^2.2.14",
     "watson-developer-cloud": "^3.18.4"
   },
@@ -18,14 +19,25 @@
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
     "getwaworkspace": "node ./config/watson-assistant-workspace/download-watson-assistant-workspace.private.js",
-    "deploy": "npm run build && node ./config/watson-assistant-workspace/download-watson-assistant-workspace.private.js && bx app push"
+    "deploy": "npm i && npm run build && surge --domain gipa.surge.sh --project ./build"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "eslint": "^5.16.0",
-    "eslint-config-google": "^0.9.1",
     "jest-fetch-mock": "^1.7.5",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "surge": "^0.21.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
