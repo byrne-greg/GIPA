@@ -3,6 +3,9 @@
 [![Build Status](https://travis-ci.org/byrne-greg/GIPA.svg?branch=master)](https://travis-ci.org/byrne-greg/GIPA)
 [![Coverage Status](https://coveralls.io/repos/github/byrne-greg/GIPA/badge.svg?branch=master)](https://coveralls.io/github/byrne-greg/GIPA?branch=master)
 
+## Author Note
+Due to IBM changing their terms of service for Watson Assistant services as well as the deprecation of the version this was built with, this bot is no longer maintained and cannot remain active in a hosted environment.
+
 ## Mission
 Provide a portal where inquiring users can ask personal questions of it's creator from a responsive conversational agent
 

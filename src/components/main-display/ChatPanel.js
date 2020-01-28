@@ -124,7 +124,8 @@ export default class ChatPanel extends React.Component {
 			<div className="ChatPanel">
 				<Disclaimer/>
 				<ErrorBoundary>
-					<ScrollingMessagesPane chatMessages={this.state.chatMessages}/>
+					<WatsonIsDown/>
+					{/* <ScrollingMessagesPane chatMessages={this.state.chatMessages}/> */}
 					<ControlPane handleEnteredMessage={this.handleEnteredMessage} watsonResponseSuggestions={this.state.watsonResponseSuggestions}/>
 				</ErrorBoundary>
 			</div>
@@ -139,6 +140,14 @@ export const Disclaimer = () => {
 		</div>
 	);
 };
+
+const WatsonIsDown = () => {
+	return(
+		<div className="WatsonDown">
+			<strong>Due to a change in terms of service, the IBM Watson Assistant service used is no longer available</strong>
+		</div>
+	)
+}
 
 
 
